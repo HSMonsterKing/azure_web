@@ -2,65 +2,72 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<title>個人技能樹</title>
+<title>技能樹</title>
 
 <style>
+
 body{
-font-family: Microsoft JhengHei;
-margin:40px;
+font-family:Microsoft JhengHei;
+margin:0;
 background:#f4f6f8;
 }
 
-h1{
-color:#1f4e79;
+.navbar{
+background:#1f4e79;
+padding:15px;
+}
+
+.navbar a{
+color:white;
+margin-right:20px;
+text-decoration:none;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px;
 }
 
 .box{
 background:white;
-padding:20px;
-margin-bottom:20px;
+padding:25px;
+margin-bottom:25px;
 border-radius:8px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-h2{
-color:#2f5597;
-}
-
-a{
-color:#0078d4;
-}
 </style>
-
 </head>
 
 <body>
+
+<div class="navbar">
+
+<a href="index.html">首頁</a>
+<a href="skill.htm">技能樹</a>
+<a href="pl.htm">PL 認證</a>
+<a href="dp.htm">DP 認證</a>
+
+</div>
+
+<div class="container">
 
 <h1>個人技能樹</h1>
 
 <div class="box">
 
-<h2>SQL Server Analysis Services (SSAS)</h2>
+<h2>SQL Server Analysis Services</h2>
 
-<p>
-用於建立多維度資料模型與 OLAP 分析環境，
-可將企業資料倉儲轉換為高效能分析模型。
-主要應用於商業智慧 (BI) 系統，
-提供快速的資料查詢與分析能力。
-</p>
+建立 OLAP 分析模型與企業資料倉儲分析平台。
 
 </div>
 
 <div class="box">
 
-<h2>SQL Server Reporting Services (SSRS)</h2>
+<h2>SQL Server Reporting Services</h2>
 
-<p>
-微軟的企業報表平台，
-用於建立企業級報表與定期報表系統。
-可以與 SQL Server 整合，
-提供自動化報表產生與資料視覺化功能。
-</p>
+企業報表平台，可建立自動化報表系統。
 
 </div>
 
@@ -68,11 +75,7 @@ color:#0078d4;
 
 <h2>Power BI</h2>
 
-<p>
-Microsoft 商業智慧分析平台，
-可將資料轉換為互動式儀表板與視覺化報表。
-常用於企業 KPI 監控、銷售分析與營運分析。
-</p>
+建立互動式資料儀表板與商業分析報表。
 
 </div>
 
@@ -80,12 +83,7 @@ Microsoft 商業智慧分析平台，
 
 <h2>DAX 開發</h2>
 
-<p>
-DAX (Data Analysis Expressions) 是 Power BI
-與 Analysis Services 使用的資料分析語言。
-主要用於建立計算欄位、度量值 (Measures)
-以及複雜的商業邏輯計算。
-</p>
+撰寫進階商業邏輯計算與分析指標。
 
 </div>
 
@@ -93,30 +91,19 @@ DAX (Data Analysis Expressions) 是 Power BI
 
 <h2>Python 開發</h2>
 
-<p>
-使用 Python 進行資料處理、自動化與資料分析，
-常搭配 Pandas、NumPy 等資料分析工具。
-也可用於 ETL 流程開發與資料清理。
-</p>
+資料清理、自動化流程與資料分析。
 
 </div>
 
 <div class="box">
 
-<h2>Azure SQL Database 建置</h2>
+<h2>Azure SQL Database</h2>
 
-<p>
-Microsoft Azure 雲端資料庫服務，
-可建立高可用性的雲端資料平台。
-適用於雲端應用程式與企業資料系統，
-並可與 Power BI 與 Azure Data Services 整合。
-</p>
+雲端資料庫平台建置與資料管理。
 
 </div>
 
-<p>
-<a href="index.html">回首頁</a>
-</p>
+</div>
 
 </body>
 </html>

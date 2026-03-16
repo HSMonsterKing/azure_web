@@ -2,99 +2,134 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<title>資料領域與 Microsoft 認證介紹</title>
+<title>Data Engineer Portfolio</title>
 
 <style>
+
 body{
-font-family: Microsoft JhengHei;
-margin:40px;
+font-family:Microsoft JhengHei;
+margin:0;
 background:#f4f6f8;
+}
+
+.navbar{
+background:#1f4e79;
+padding:15px;
+}
+
+.navbar a{
+color:white;
+margin-right:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px;
+}
+
+.box{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
 h1{
 color:#1f4e79;
 }
 
-h2{
-color:#2f5597;
+.skill-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
 }
 
-.box{
-background:white;
+.skill-card{
+background:#ffffff;
 padding:20px;
-margin-bottom:20px;
 border-radius:8px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+text-align:center;
 }
 
-a{
-color:#0078d4;
-text-decoration:none;
-font-weight:bold;
-}
 </style>
 </head>
 
 <body>
 
-<h1>資料工程、資料分析與資料科學</h1>
+<div class="navbar">
+
+<a href="index.html">首頁</a>
+<a href="skill.htm">技能樹</a>
+<a href="pl.htm">PL 認證</a>
+<a href="dp.htm">DP 認證</a>
+
+</div>
+
+<div class="container">
+
+<h1>資料工程 / 資料分析 / 資料科學</h1>
 
 <div class="box">
+
 <h2>資料工程 (Data Engineer)</h2>
+
 <p>
-資料工程師主要負責建立資料基礎架構，例如資料倉儲、資料湖與 ETL 流程，
-確保資料可以被分析系統或 AI 系統使用。
+資料工程師負責建立資料平台，
+例如資料倉儲、ETL流程與資料管線，
+確保企業資料可以被分析系統與AI模型使用。
 </p>
+
 </div>
 
 <div class="box">
+
 <h2>資料分析 (Data Analyst)</h2>
+
 <p>
-資料分析師主要透過 SQL、Power BI 等工具建立報表與儀表板，
-將資料轉換為商業洞察，協助企業做出資料驅動決策。
+資料分析師主要透過 SQL 與 Power BI
+建立報表與商業儀表板，
+將資料轉換為商業洞察。
 </p>
+
 </div>
 
 <div class="box">
+
 <h2>資料科學 (Data Scientist)</h2>
+
 <p>
-資料科學家使用 Python、機器學習與統計模型，
-建立預測模型、推薦系統與 AI 應用。
+資料科學家使用 Python、統計模型與機器學習，
+建立預測模型與 AI 應用。
 </p>
-</div>
-
-<div class="box">
-
-<h2>Microsoft 資料相關認證</h2>
-
-<ul>
-
-<li>
-<a href="pl.htm">PL 系列認證 (Power BI / Power Platform)</a>
-</li>
-
-<li>
-<a href="dp.htm">DP 系列認證 (Data Platform / Data Engineer)</a>
-</li>
-
-</ul>
 
 </div>
 
 <div class="box">
 
-<h2>個人技能</h2>
+<h2>核心技能</h2>
 
-<p>
-想了解我的資料分析與資料工程技術能力，
-可以查看我的技能整理頁面：
-</p>
+<div class="skill-grid">
 
-<ul>
-<li>
-<a href="skill.htm">個人技能樹</a>
-</li>
-</ul>
+<div class="skill-card">SQL Server</div>
+
+<div class="skill-card">Power BI</div>
+
+<div class="skill-card">DAX</div>
+
+<div class="skill-card">Python</div>
+
+<div class="skill-card">Azure SQL</div>
+
+<div class="skill-card">BI Architecture</div>
+
+</div>
+
+</div>
 
 </div>
 
